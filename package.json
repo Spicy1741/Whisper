@@ -1,0 +1,23 @@
+{
+  "name": "speech-to-text-converter",
+  "version": "1.0.0",
+  "description": "A modern web application for converting speech to text using the Web Speech API",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -o",
+    "start": "npx http-server . -p 3000",
+    "build": "echo 'No build process needed for static files'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "speech-to-text",
+    "web-speech-api",
+    "voice-recognition",
+    "transcription"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
